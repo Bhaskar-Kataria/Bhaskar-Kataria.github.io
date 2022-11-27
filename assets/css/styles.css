@@ -1,0 +1,14 @@
+img, svg {
+  vertical-align: middle;
+  float: left;
+}
+
+a {
+  color: var(--bs-black);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--bs-link-hover-color);
+}
+
