@@ -86,3 +86,37 @@
 .s-link1:hover{
     color: lightseagreen;
 }
+
+.s-div3{
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100px;
+    background-color: #f0f0f0;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-radius: 10px;
+}
+
+@media screen and (max-width: 620px){
+    .s-div3{
+        width: 94%;
+    }
+}
+
+.s-p3{
+    font-size: 25px;
+    text-align: center;
+    text-decoration: underline;
+    margin-bottom: 40px;
+}
+
+.s-p4{
+    font-size: 18px;
+}
+
+.s-span1{
+    font-weight: bold;
+}
