@@ -1,0 +1,88 @@
+/*############## Section ##############*/
+
+.s-div1{
+    max-width: 500px;
+    width: 60%;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-radius: 10px;
+    box-shadow: -2px 2px 2px lightgray;
+    background-color: #f0f0f0;
+}
+
+@media screen and (max-width: 550px){
+    .s-div1{
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 500px){
+    .s-div1{
+        width: 93%;
+    }
+}
+
+.s-p1{
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.s-input1{
+    width: 95%;
+    font-size: 17px;
+    height: 40px;
+    margin-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5px;
+    border: none;
+}
+
+.s-label1{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.s-label2{
+    font-size: 18px;
+}
+
+.s-div2{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.s-btn1{
+    font-size: 18px;
+    color: white;
+    width: 50%;
+    height: 40px;
+    background-color: #18bf55;
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.s-btn1:hover{
+    background-color: #11863c;
+}
+
+.s-p2{
+    font-weight: bold;
+}
+
+.s-link1{
+    text-decoration: underline;
+    font-weight: normal;
+}
+
+.s-link1:hover{
+    color: lightseagreen;
+}
